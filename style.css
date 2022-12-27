@@ -1,0 +1,123 @@
+body
+{
+    background-color: #202124;
+    margin: 0;
+}
+.container
+{
+    margin: 140px 460px;
+    text-align: center;
+}
+textarea
+{
+    margin-top: 25px;
+    resize: none;
+    background-color: #202124;
+    border-radius: 25px;
+    border-color: grey;
+    color: white;
+}
+.header
+{
+    text-align: right;
+    margin: 20px;
+    justify-content: flex-end;
+}
+.header a
+{
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+}
+a{
+    text-decoration: none;
+}
+.flex-container {
+    display: flex;
+    float: right;
+    display: flex;
+    justify-content: right;
+  }
+  .flex-container > div {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    font-size: 150px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+  }
+  .none{
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 0;
+  }
+.box
+{
+    width: 530px;
+
+	height: 4px;
+    margin-top: 19px;
+	background-color: #202124;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+    border: 1px solid #686869;
+}
+.box input{
+    width: 100%;
+    padding: 14px;
+    text-align: left;
+    border-radius: 0px;
+    background-color: #202124;
+    border:  pink;
+    margin: 30px;
+}
+.fa-customize{
+    color: #969ca2;
+}
+button{
+    margin-top: 35px;
+    background-color: #303134;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+    margin-left:10px;
+    cursor: pointer;
+}
+
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    background-color: #171717;
+    padding: 1px 36.46px;
+    border-bottom: 0px solid #171717;
+    color: #909aa3;
+    /* margin-top: 230px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+hr{
+    margin: 0 0 0 -40px ;
+    width: 105.7%;
+    height: 100%;
+    border-top: 0px solid #333638;
+    background-color: red;
+}
+.footer-flex
+{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.footer-flex a{
+    margin-right: 25px;
+    color: #909aa3;
+}
